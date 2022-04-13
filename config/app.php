@@ -31,20 +31,7 @@ return [
 
     'dev' => [
         'components' => [
-            'redis' => [
-                'class' => yii\redis\Connection::class,
-                'hostname' => 'redis.service.nitro',
-                'port' => 6379,
-                // NOTE: Ensure that database is not same as other sites running on Nitro 2
-                'database' => 1,
-                // NOTE: Appears to not be needed in Nitro 2
-                // 'password' => App::env('REDIS_PASSWORD'),
-            ],
-            'cache' => [
-                'class' => yii\redis\Cache::class,
-                'defaultDuration' => 86400,
-                'keyPrefix' => App::env('APP_ID') ?: 'CraftCMS',
-            ],
+            
         ],
     ]
 ];

@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en-GB
+name: 'CRAFT STARTER'
+primary: true
+siteGroup: f2827411-db98-44a0-9a14-a4c5857ca03d # CRAFT STARTER
+sortOrder: 1
